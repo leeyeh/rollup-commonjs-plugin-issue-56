@@ -1,0 +1,15 @@
+{
+  "name": "rollup-commonjs-plugin-issue-56",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup -c && node index.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.25.5",
+    "rollup-plugin-commonjs": "^2.2.1"
+  }
+}
