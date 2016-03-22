@@ -1,3 +1,3 @@
-import { clearTimeout } from './request-base.js';
+import { test } from './wrapper.js';
 
-clearTimeout();
+test();

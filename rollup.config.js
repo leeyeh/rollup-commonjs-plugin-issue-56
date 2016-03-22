@@ -5,6 +5,6 @@ export default {
   dest: 'index.bundle.js',
   format: 'iife',
   plugins: [commonjs({
-    include: 'request-base.js'
+    include: ['request-base.js', 'wrapper.js']
   })]
 };
